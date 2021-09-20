@@ -1,3 +1,5 @@
+--File for creating tables
+
 CREATE TABLE departments(
 	dep_no VARCHAR Primary Key Not NULL,
 	dept_name VARCHAR NOT NULL
