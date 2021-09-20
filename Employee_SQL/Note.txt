@@ -2,3 +2,5 @@ I didn't necessarily like how PG admin kept records of my code so I developed so
 notepad and would then test it. 
 
 "Opened set up code & ran it in the query section of pgAdmin"
+
+Added image of ERD from PGadmin
