@@ -27,3 +27,9 @@ WHERE first_name = 'Hercules'
 	AND last_name LIKE 'B%';
 
 
+SELECT dept_emp.emp_no, employees.last_name, employees.first_name, departments.dept_name
+FROM dept_emp
+JOIN employees ON dept_emp.emp_no = employees.emp_no
+JOIN departments ON dept_emp.dep_no = departments.dep_no
+WHERE departments.dept_name = 'Sales';
+
