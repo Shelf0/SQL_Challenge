@@ -1,0 +1,2 @@
+I didn't necessarily like how PG admin kept records of my code so I developed some of it in 
+notepad and would then test it. 
