@@ -19,3 +19,11 @@ SELECT dept_emp.emp_no, employees.last_name, employees.first_name, departments.d
 FROM dept_emp
 JOIN employees ON dept_emp.emp_no = employees.emp_no
 JOIN departments ON dept_emp.dep_no = departments.dep_no;
+
+
+SELECT first_name, last_name, sex
+FROM employees
+WHERE first_name = 'Hercules'
+	AND last_name LIKE 'B%';
+
+
